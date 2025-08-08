@@ -1,0 +1,28 @@
+{
+    "name": "peter/citas-ceraor-back",
+    "description": "API ceraor",
+    "autoload": {
+        "psr-4":{
+            "Classes\\": "models/classes/",
+            "Abstracts\\": "models/abstract/",
+            "Utils\\": "config/Utils/"
+        }
+    },
+    "classmap": [
+        "models/classes/",
+        "models/abstract/",
+        "config/"
+    ],
+    "files":[
+        "config/db.php"
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0",
+        "easy-projects/simple-router": "^7.2",
+        "firebase/php-jwt": "^6.10",
+        "vlucas/phpdotenv": "^5.6",
+        "picqer/php-barcode-generator": "^2.4",
+        "twbs/bootstrap": "^5.3",
+        "phpoffice/phpspreadsheet": "^4.3"
+    }
+}

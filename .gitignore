@@ -1,0 +1,5 @@
+/vendor/
+/uploads/
+.env
+/appointments-barcodes/
+/docs/
